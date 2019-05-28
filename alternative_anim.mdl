@@ -1,10 +1,13 @@
-frames 60
-basename easy_60
+frames 120
+basename easy_120
+constants brass 0.329412 0.780392 0.992157 0.223529 0.568627 0.941176 0.027451 0.113725 0.807843
 push
 move 500 500 500 movenator
 rotate y 360 spinny
 rotate z 360 spinny
-box 0 0 0 30 30 30
+box brass 0 0 0 90 90 90
 vary spinny 0 29 0 1
 vary spinny 29 59 1 0
-vary movenator 0 59 0 1
+vary movenator 0 29 0 1
+vary movenator 29 59 1 0
+
