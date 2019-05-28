@@ -80,4 +80,3 @@ def make_animation( name ):
     f = fork()
     if f == 0:
         execlp('convert', 'convert', '-delay', '1.7', name_arg, name)
-        execlp('rm', 'rm', '-r', 'anim')
