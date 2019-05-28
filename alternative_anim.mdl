@@ -1,0 +1,10 @@
+frames 60
+basename easy_60
+push
+move 500 500 500 movenator
+rotate y 360 spinny
+rotate z 360 spinny
+box 0 0 0 30 30 30
+vary spinny 0 29 0 1
+vary spinny 29 59 1 0
+vary movenator 0 59 0 1
